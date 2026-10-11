@@ -5,9 +5,9 @@
        I18N
        ============================================================ */
     var I18N = {
-        en:{today:"Today",stats:"Stats",settings:"Settings",theme:"Theme",pomodoro:"Pomodoro",short:"Short Break",long:"Long Break",start:"Start",pause:"Pause",resume:"Resume",reset:"Reset",skip:"Skip",tasks:"Tasks",est:"Est.",add:"Add",taskPh:"Add a task",noTask:"No task selected.",noTasks:"No tasks yet.",profileSection:"Profile",focusSection:"Focus",tasksSection:"Tasks",soundSection:"Sound",keysSection:"Keyboard shortcuts",dangerSection:"Reset",autoBreaks:"Auto Start Breaks",autoPomos:"Auto Start Pomodoros",interval:"Long Break interval",autoCheck:"Auto Check Tasks",checkBottom:"Check to Bottom",alarmSound:"Alarm Sound",focusSound:"Focus Sound",volume:"Volume",repeat:"Repeat",kitchen:"Kitchen",bell:"Bell",digital:"Digital",none:"None",thisWeek:"This week",allTime:"All time",minutes:"minutes",sessions:"sessions",noData:"No data yet.",testSound:"Test sound",hintStart:"start / pause",hintReset:"reload",hintFocus:"focus",hintStats:"stats",hintNew:"new task",hintClose:"close",toastAdded:"Task added",toastRemoved:"Task removed",toastTheme:"Theme changed",toastFocus:"Focus mode",toastFocusOff:"Focus off",toastReset:"Timer reset",welcomeTitle:"Welcome to FocusFlow",welcomeSub:"Pick a name to get started. No account needed.",nameLabel:"Your name",nameHint:"2–30 characters. Be kind.",continueBtn:"Continue",nameSaved:"Name saved",nameBlocked:"That name isn't allowed. Please pick another.",nameTooShort:"Name must be at least 2 characters.",nameTooLong:"Name must be 30 characters or less.",wipeBtn:"Erase all my data",wipeConfirm:"Delete all your tasks, sessions, and settings? This cannot be undone.",wipeDone:"Everything erased."},
-        fr:{today:"Aujourd’hui",stats:"Statistiques",settings:"Paramètres",theme:"Thème",pomodoro:"Pomodoro",short:"Pause courte",long:"Pause longue",start:"Démarrer",pause:"Pause",resume:"Reprendre",reset:"Réinitialiser",skip:"Passer",tasks:"Tâches",est:"Est.",add:"Ajouter",taskPh:"Ajouter une tâche",noTask:"Aucune tâche sélectionnée.",noTasks:"Aucune tâche pour le moment.",profileSection:"Profil",focusSection:"Concentration",tasksSection:"Tâches",soundSection:"Son",keysSection:"Raccourcis clavier",dangerSection:"Réinitialiser",autoBreaks:"Démarrer les pauses automatiquement",autoPomos:"Démarrer la concentration automatiquement",interval:"Intervalle de pause longue",autoCheck:"Cocher les tâches automatiquement",checkBottom:"Tâches cochées en bas de liste",alarmSound:"Son de l’alarme",focusSound:"Son de concentration",volume:"Volume",repeat:"Répétitions",kitchen:"Cuisine",bell:"Cloche",digital:"Numérique",none:"Aucun",thisWeek:"Cette semaine",allTime:"Tout le temps",minutes:"minutes",sessions:"séances",noData:"Aucune donnée.",testSound:"Tester le son",hintStart:"démarrer / pause",hintReset:"recharger",hintFocus:"focus",hintStats:"stats",hintNew:"nouvelle tâche",hintClose:"fermer",toastAdded:"Tâche ajoutée",toastRemoved:"Tâche supprimée",toastTheme:"Thème modifié",toastFocus:"Mode focus",toastFocusOff:"Focus désactivé",toastReset:"Minuteur réinitialisé",welcomeTitle:"Bienvenue sur FocusFlow",welcomeSub:"Choisissez un nom pour commencer. Aucun compte requis.",nameLabel:"Votre nom",nameHint:"2 à 30 caractères. Restez courtois.",continueBtn:"Continuer",nameSaved:"Nom enregistré",nameBlocked:"Ce nom n’est pas autorisé. Choisissez-en un autre.",nameTooShort:"Le nom doit contenir au moins 2 caractères.",nameTooLong:"Le nom ne doit pas dépasser 30 caractères.",wipeBtn:"Effacer toutes mes données",wipeConfirm:"Supprimer toutes vos tâches, sessions et paramètres ? Action irréversible.",wipeDone:"Tout a été effacé."},
-        ar:{today:"اليوم",stats:"الإحصائيات",settings:"الإعدادات",theme:"المظهر",pomodoro:"بومودورو",short:"استراحة قصيرة",long:"استراحة طويلة",start:"ابدأ",pause:"إيقاف مؤقت",resume:"متابعة",reset:"إعادة الضبط",skip:"تخطٍ",tasks:"المهام",est:"التقدير",add:"إضافة",taskPh:"أضف مهمة",noTask:"لم يتم تحديد مهمة.",noTasks:"لا توجد مهام بعد.",profileSection:"الملف الشخصي",focusSection:"تركيز",tasksSection:"المهام",soundSection:"الصوت",keysSection:"اختصارات لوحة المفاتيح",dangerSection:"إعادة الضبط",autoBreaks:"بدء الاستراحات تلقائيًا",autoPomos:"بدء جلسات التركيز تلقائيًا",interval:"الفاصل الزمني للاستراحة الطويلة",autoCheck:"تحديد المهام تلقائيًا",checkBottom:"نقل المكتملة إلى الأسفل",alarmSound:"صوت التنبيه",focusSound:"صوت التركيز",volume:"مستوى الصوت",repeat:"التكرار",kitchen:"مطبخ",bell:"جرس",digital:"رقمي",none:"بدون",thisWeek:"هذا الأسبوع",allTime:"كل الوقت",minutes:"دقيقة",sessions:"جلسات",noData:"لا توجد بيانات بعد.",testSound:"اختبار الصوت",hintStart:"ابدأ / إيقاف",hintReset:"إعادة التحميل",hintFocus:"تركيز",hintStats:"الإحصائيات",hintNew:"مهمة جديدة",hintClose:"إغلاق",toastAdded:"تمت إضافة المهمة",toastRemoved:"تم حذف المهمة",toastTheme:"تم تغيير المظهر",toastFocus:"وضع التركيز",toastFocusOff:"تم إيقاف التركيز",toastReset:"تمت إعادة الضبط",welcomeTitle:"مرحبًا بك في FocusFlow",welcomeSub:"اختر اسمًا للبدء. لا حاجة إلى حساب.",nameLabel:"اسمك",nameHint:"من 2 إلى 30 حرفًا. كن لطيفًا.",continueBtn:"متابعة",nameSaved:"تم حفظ الاسم",nameBlocked:"هذا الاسم غير مسموح. اختر اسمًا آخر.",nameTooShort:"يجب أن يتكون الاسم من حرفين على الأقل.",nameTooLong:"يجب ألا يتجاوز الاسم 30 حرفًا.",wipeBtn:"حذف جميع بياناتي",wipeConfirm:"حذف كل المهام والجلسات والإعدادات؟ لا يمكن التراجع.",wipeDone:"تم حذف كل شيء."}
+        en:{today:"Today",stats:"Stats",settings:"Settings",theme:"Theme",pomodoro:"Pomodoro",short:"Short Break",long:"Long Break",start:"Start",pause:"Pause",resume:"Resume",reset:"Reset",skip:"Skip",tasks:"Tasks",est:"Est.",add:"Add",taskPh:"Add a task",noTask:"No task selected.",noTasks:"No tasks yet.",profileSection:"Profile",focusSection:"Focus",tasksSection:"Tasks",soundSection:"Sound",keysSection:"Keyboard shortcuts",dangerSection:"Reset",autoBreaks:"Auto Start Breaks",autoPomos:"Auto Start Pomodoros",interval:"Long Break interval",autoCheck:"Auto Check Tasks",checkBottom:"Check to Bottom",alarmSound:"Alarm Sound",focusSound:"Focus Sound",volume:"Volume",repeat:"Repeat",kitchen:"Kitchen",bell:"Bell",digital:"Digital",none:"None",thisWeek:"This week",allTime:"All time",minutes:"minutes",sessions:"sessions",noData:"No data yet.",testSound:"Test sound",hintStart:"start / pause",hintReset:"reload",hintFocus:"focus",hintStats:"stats",hintNew:"new task",hintClose:"close",toastAdded:"Task added",toastRemoved:"Task removed",toastTheme:"Theme changed",toastFocus:"Focus mode",toastFocusOff:"Focus off",toastReset:"Timer reset",welcomeTitle:"Welcome to Orbito",welcomeSub:"Pick a name to get started. No account needed.",nameLabel:"Your name",nameHint:"2–30 characters. Be kind.",continueBtn:"Continue",nameSaved:"Name saved",nameBlocked:"That name isn't allowed. Please pick another.",nameTooShort:"Name must be at least 2 characters.",nameTooLong:"Name must be 30 characters or less.",wipeBtn:"Erase all my data",wipeConfirm:"Delete all your tasks, sessions, and settings? This cannot be undone.",wipeDone:"Everything erased."},
+        fr:{today:"Aujourd’hui",stats:"Statistiques",settings:"Paramètres",theme:"Thème",pomodoro:"Pomodoro",short:"Pause courte",long:"Pause longue",start:"Démarrer",pause:"Pause",resume:"Reprendre",reset:"Réinitialiser",skip:"Passer",tasks:"Tâches",est:"Est.",add:"Ajouter",taskPh:"Ajouter une tâche",noTask:"Aucune tâche sélectionnée.",noTasks:"Aucune tâche pour le moment.",profileSection:"Profil",focusSection:"Concentration",tasksSection:"Tâches",soundSection:"Son",keysSection:"Raccourcis clavier",dangerSection:"Réinitialiser",autoBreaks:"Démarrer les pauses automatiquement",autoPomos:"Démarrer la concentration automatiquement",interval:"Intervalle de pause longue",autoCheck:"Cocher les tâches automatiquement",checkBottom:"Tâches cochées en bas de liste",alarmSound:"Son de l’alarme",focusSound:"Son de concentration",volume:"Volume",repeat:"Répétitions",kitchen:"Cuisine",bell:"Cloche",digital:"Numérique",none:"Aucun",thisWeek:"Cette semaine",allTime:"Tout le temps",minutes:"minutes",sessions:"séances",noData:"Aucune donnée.",testSound:"Tester le son",hintStart:"démarrer / pause",hintReset:"recharger",hintFocus:"focus",hintStats:"stats",hintNew:"nouvelle tâche",hintClose:"fermer",toastAdded:"Tâche ajoutée",toastRemoved:"Tâche supprimée",toastTheme:"Thème modifié",toastFocus:"Mode focus",toastFocusOff:"Focus désactivé",toastReset:"Minuteur réinitialisé",welcomeTitle:"Bienvenue sur Orbito",welcomeSub:"Choisissez un nom pour commencer. Aucun compte requis.",nameLabel:"Votre nom",nameHint:"2 à 30 caractères. Restez courtois.",continueBtn:"Continuer",nameSaved:"Nom enregistré",nameBlocked:"Ce nom n’est pas autorisé. Choisissez-en un autre.",nameTooShort:"Le nom doit contenir au moins 2 caractères.",nameTooLong:"Le nom ne doit pas dépasser 30 caractères.",wipeBtn:"Effacer toutes mes données",wipeConfirm:"Supprimer toutes vos tâches, sessions et paramètres ? Action irréversible.",wipeDone:"Tout a été effacé."},
+        ar:{today:"اليوم",stats:"الإحصائيات",settings:"الإعدادات",theme:"المظهر",pomodoro:"بومودورو",short:"استراحة قصيرة",long:"استراحة طويلة",start:"ابدأ",pause:"إيقاف مؤقت",resume:"متابعة",reset:"إعادة الضبط",skip:"تخطٍ",tasks:"المهام",est:"التقدير",add:"إضافة",taskPh:"أضف مهمة",noTask:"لم يتم تحديد مهمة.",noTasks:"لا توجد مهام بعد.",profileSection:"الملف الشخصي",focusSection:"تركيز",tasksSection:"المهام",soundSection:"الصوت",keysSection:"اختصارات لوحة المفاتيح",dangerSection:"إعادة الضبط",autoBreaks:"بدء الاستراحات تلقائيًا",autoPomos:"بدء جلسات التركيز تلقائيًا",interval:"الفاصل الزمني للاستراحة الطويلة",autoCheck:"تحديد المهام تلقائيًا",checkBottom:"نقل المكتملة إلى الأسفل",alarmSound:"صوت التنبيه",focusSound:"صوت التركيز",volume:"مستوى الصوت",repeat:"التكرار",kitchen:"مطبخ",bell:"جرس",digital:"رقمي",none:"بدون",thisWeek:"هذا الأسبوع",allTime:"كل الوقت",minutes:"دقيقة",sessions:"جلسات",noData:"لا توجد بيانات بعد.",testSound:"اختبار الصوت",hintStart:"ابدأ / إيقاف",hintReset:"إعادة التحميل",hintFocus:"تركيز",hintStats:"الإحصائيات",hintNew:"مهمة جديدة",hintClose:"إغلاق",toastAdded:"تمت إضافة المهمة",toastRemoved:"تم حذف المهمة",toastTheme:"تم تغيير المظهر",toastFocus:"وضع التركيز",toastFocusOff:"تم إيقاف التركيز",toastReset:"تمت إعادة الضبط",welcomeTitle:"مرحبًا بك في Orbito",welcomeSub:"اختر اسمًا للبدء. لا حاجة إلى حساب.",nameLabel:"اسمك",nameHint:"من 2 إلى 30 حرفًا. كن لطيفًا.",continueBtn:"متابعة",nameSaved:"تم حفظ الاسم",nameBlocked:"هذا الاسم غير مسموح. اختر اسمًا آخر.",nameTooShort:"يجب أن يتكون الاسم من حرفين على الأقل.",nameTooLong:"يجب ألا يتجاوز الاسم 30 حرفًا.",wipeBtn:"حذف جميع بياناتي",wipeConfirm:"حذف كل المهام والجلسات والإعدادات؟ لا يمكن التراجع.",wipeDone:"تم حذف كل شيء."}
     };
 
     /* ============================================================
@@ -246,6 +246,42 @@
     /* ============================================================
        NAME
        ============================================================ */
+    function getGreetingMap(locale){
+        var lang = (locale || navigator.language || 'en-US').toLowerCase();
+        if (lang.indexOf('fr') === 0) return {hello:'Bonjour', welcome:'Bienvenue'};
+        if (lang.indexOf('es') === 0) return {hello:'Hola', welcome:'Bienvenido'};
+        if (lang.indexOf('de') === 0) return {hello:'Hallo', welcome:'Willkommen'};
+        if (lang.indexOf('it') === 0) return {hello:'Ciao', welcome:'Benvenuto'};
+        if (lang.indexOf('pt') === 0) return {hello:'Olá', welcome:'Bem-vindo'};
+        if (lang.indexOf('ar') === 0) return {hello:'مرحبًا', welcome:'أهلاً وسهلاً'};
+        if (lang.indexOf('tr') === 0) return {hello:'Merhaba', welcome:'Hoş geldin'};
+        if (lang.indexOf('ja') === 0) return {hello:'こんにちは', welcome:'ようこそ'};
+        if (lang.indexOf('ko') === 0) return {hello:'안녕하세요', welcome:'환영합니다'};
+        return {hello:'Hello', welcome:'Welcome'};
+    }
+
+    function updateProfileGreeting(){
+        var name = (state.name || 'Guest').trim() || 'Guest';
+        var locale = navigator.language || 'en-US';
+        var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
+        var hour = new Date().getHours();
+        var greetingMap = getGreetingMap(locale);
+        var prefix = (hour < 12) ? 'Morning' : (hour < 18 ? 'Afternoon' : 'Evening');
+        var hello = greetingMap.hello;
+        var welcome = greetingMap.welcome;
+
+        var greetingEl = $('#profileGreeting');
+        var metaEl = $('#profileMeta');
+        if (greetingEl){
+            var phrase = hello + ', ' + name;
+            if (locale.indexOf('en') === 0) phrase = hello + ', ' + name;
+            greetingEl.textContent = phrase;
+        }
+        if (metaEl){
+            metaEl.textContent = 'Language: ' + locale + ' • Time zone: ' + tz;
+        }
+    }
+
     function setDisplayName(name){
         state.name = name;
         LS.set('ff_name', name);
@@ -254,6 +290,7 @@
         $('#nameText').textContent = name;
         var sName = $('#sName');
         if (sName) sName.value = name;
+        updateProfileGreeting();
     }
 
     function openNameModal(isFirstRun){
@@ -308,7 +345,7 @@
         var idle = state.remaining >= state.total;
         $('#startBtn').textContent = state.running ? T('pause') : (idle ? T('start') : T('resume'));
         $$('.mode-btn').forEach(function(b){b.classList.toggle('active', b.dataset.mode===state.mode)});
-        document.title = (state.running ? fmt(state.remaining)+' · ' : '') + 'FocusFlow';
+        document.title = (state.running ? fmt(state.remaining)+' · ' : '') + 'Orbito';
     }
     function setMode(m, doReset){
         state.mode = m;
