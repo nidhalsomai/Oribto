@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('UTC');
 
-const APP_NAME = 'FocusFlow';
-const APP_URL = 'http://localhost/focusflow';
+const APP_NAME = 'Orbito';
+const APP_URL = 'http://localhost/orbito';
 const DB_HOST = '127.0.0.1';
 const DB_NAME = 'focusflow';
 const DB_USER = 'root';
