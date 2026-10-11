@@ -3,10 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FocusFlow</title>
+<title>Orbito</title>
+<link rel="icon" href="oo.png" type="image/png">
+<link rel="apple-touch-icon" href="oo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box}
 html,body{margin:0;padding:0}
@@ -181,6 +183,13 @@ body.focus .timer{color:var(--accent);text-shadow:0 0 60px var(--glow)}
 .field-row label{display:flex;flex-direction:column;gap:6px;font-size:11.5px;color:var(--muted);margin-bottom:8px}
 .field-row select{height:38px;padding:0 12px;background:var(--bg);border:1px solid var(--line);border-radius:10px;font-size:13px;outline:none;cursor:pointer}
 .field-row select:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.profile-greeting-wrap{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:6px;padding:8px 10px 16px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));}
+.profile-greeting{font-family:'Cormorant Garamond', Georgia, serif;font-size:clamp(2rem, 3vw, 2.8rem);line-height:1.05;letter-spacing:.02em;color:var(--text);font-weight:600;display:flex;align-items:center;justify-content:center;text-align:center;}
+.profile-meta{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500;}
+.social-links{display:grid;gap:10px;margin-top:2px}
+.social-link{display:flex;align-items:center;justify-content:center;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--text);text-decoration:none;transition:background .15s,border-color .15s,transform .15s;font-weight:600;font-size:13px}
+.social-link:hover{background:var(--surface);border-color:var(--line-2);transform:translateY(-1px)}
+.social-link strong{font-size:13px;font-weight:600}
 
 .slider-row{display:grid;grid-template-columns:1fr 150px 44px;align-items:center;gap:10px;font-size:12.5px;color:var(--muted);padding:6px 0}
 .slider-row input[type=range]{width:100%;accent-color:var(--accent);cursor:pointer}
@@ -254,7 +263,7 @@ body.focus .timer{font-size:clamp(96px,18vw,200px)}
 
 <header class="topbar">
     <div class="topbar-inner">
-        <span class="brand">FocusFlow</span>
+        <span class="brand">Orbito</span>
         <div class="actions">
             <div class="badge"><span class="mono" id="todayBadge">0</span><span data-i18n="today">Today</span></div>
             <button class="btn" id="statsBtn">
@@ -351,7 +360,7 @@ body.focus .timer{font-size:clamp(96px,18vw,200px)}
         </div>
         <form id="nameForm" class="auth-form">
             <div class="welcome-emoji" id="welcomeEmoji">👋</div>
-            <h2 class="welcome-title" id="welcomeTitle" data-i18n="welcomeTitle">Welcome to FocusFlow</h2>
+            <h2 class="welcome-title" id="welcomeTitle" data-i18n="welcomeTitle">Welcome to Orbito</h2>
             <p class="welcome-sub" data-i18n="welcomeSub">Pick a name to get started. No account needed.</p>
 
             <label>
@@ -376,8 +385,12 @@ body.focus .timer{font-size:clamp(96px,18vw,200px)}
         <div class="modal-body">
             <div class="settings-group">
                 <div class="section-title" data-i18n="profileSection">Profile</div>
-                <div class="field-row">
-                    <label><span data-i18n="nameLabel">Your name</span><input type="text" id="sName" maxlength="30"></label>
+                <div class="profile-greeting-wrap">
+                    <div class="profile-greeting" id="profileGreeting">Hello, Guest</div>
+                    <div class="profile-meta" id="profileMeta">Language: en • Time zone: UTC</div>
+                </div>
+                <div class="field-row hidden" aria-hidden="true">
+                    <label><span data-i18n="nameLabel">Your name</span><input type="text" id="sName" maxlength="30" tabindex="-1"></label>
                 </div>
             </div>
 
@@ -450,6 +463,15 @@ body.focus .timer{font-size:clamp(96px,18vw,200px)}
             <div class="settings-group">
                 <div class="section-title" data-i18n="dangerSection">Reset</div>
                 <button class="btn full" id="wipeBtn" type="button" style="color:#E5484D;border-color:rgba(229,72,77,.3)" data-i18n="wipeBtn">Erase all my data</button>
+                <div style="font-size:12px;color:var(--muted);margin:8px 0 0;letter-spacing:.06em;text-transform:uppercase;">Follow me</div>
+                <div class="social-links">
+                    <a class="social-link" href="https://github.com/nidhalsomai" target="_blank" rel="noreferrer">
+                        <strong>GitHub</strong>
+                    </a>
+                    <a class="social-link" href="https://www.linkedin.com/in/nidhalsomai/" target="_blank" rel="noreferrer">
+                        <strong>LinkedIn</strong>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
